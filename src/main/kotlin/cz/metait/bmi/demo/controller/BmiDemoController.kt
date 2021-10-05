@@ -1,4 +1,4 @@
-package cz.metait.bmi.demo
+package cz.metait.bmi.demo.controller
 
 import io.micronaut.http.annotation.Controller
 import io.micronaut.http.annotation.Get
