@@ -59,11 +59,11 @@ tasks {
     }
 
 dockerBuild {
-    images = ["${System.env.DOCKER_IMAGE ?: project.name}:$project.version"]
+    var images: String = "$project.name:$project.version"
 }
 
 dockerBuildNative {
-    images = ["${System.env.DOCKER_IMAGE ?: project.name}:$project.version"]
+    var images: String = "$project.name:$project.version"
 }
 
 }
