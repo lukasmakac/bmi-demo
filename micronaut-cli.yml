@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: cz.metait.bmi.demo
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, github-workflow-azure-container-instance, gradle, http-client, junit, kotlin, kotlin-application, logback, netty-server, readme, shade, yaml]
